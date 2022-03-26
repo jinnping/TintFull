@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+/* .header {
+	position: fixed;
+	width: 100%;
+} */
+
+/* .navbar-default{
+	border-bottom : 0.1px solid rgba(255, 255, 255, 0.89);
+	background-color: rgba(0, 0, 0, 0.60);
+	backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(110%);
+	-webkit-backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(110%);
+	transition: 0.3s ease;
+} */
+
+/* .navbar-active{
+	background-color:rgba(255, 255, 255, 0.95);
+	  backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(110%);
+	-webkit-backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(110%);
+	transition: 0.3s ease;
+  } */
+
+  .navbar{
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left :0;
+	padding: .1rem;
+	transition: 0.3s;
+	font-family: 'jf-openhuninn-1.1', sans-serif;
+	border-bottom : 0.1px solid rgba(255, 255, 255, 0.89);
+	background-color: rgba(0, 0, 0, 0.60);
+	backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(110%);
+	-webkit-backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(110%);
+	transition: 0.3s ease;
+	z-index: 100;
+  }
+  
+  .scrolled{
+	background-color:rgba(255, 255, 255, 0.301);
+	backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(150%);
+  -webkit-backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(150%);
+  transition: 0.3s ease;
+  }
+
+
+.logo {
+	margin: 0;
+	align-items: center;
+	align-self: center;
+	padding: 5px 10px;
+}
+
+.main-nav {
+	margin-top: 5px;
+}
+
+.logo a,
+.main-nav a {
+	padding:5px 10px;
+	text-transform: uppercase;
+	display: block;
+}
+
+.tab-default a  {
+	justify-content: center;
+	padding: 8px 10px;
+	color: rgb(255, 255, 255);
+	font-size:1em;
+	text-decoration: none;
+}
+
+.main-nav.tab-default a:hover {
+	color: #FDC06C;
+	text-decoration:none;
+}
+
+
+.tab-black a  {
+	justify-content: center;
+	padding: 8px 10px;
+	color: rgb(0, 0, 0);
+	font-size:1em;
+	text-decoration: none;
+}
+
+.main-nav.tab-black a:hover {
+	color: #FDC06C;
+	text-decoration:none;
+}

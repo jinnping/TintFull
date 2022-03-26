@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+
+
+.main{
+	margin: 0;
+	padding: 0;
+}
+
+.section{
+	height: 100vh;
+	width: 100vw;
+}
+
+.box-flex {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: flex-start;
+	position: relative;
+	padding: .5rem;
+	font-size: 1.2rem;
+  }
+
+  .center{
+	justify-content: center;
+	text-align: center;
+  }
+
+  .baseline{
+	  justify-content: baseline;
+  }
+
+  .box-flex-center {
+	align-items: center;
+  }
+
+  .box-caption {
+	position: absolute;
+	max-width: 100vh;
+	word-break: break-word;
+  }
+
+  .align-start {
+	align-self: flex-start;
+  }  
+
+  .align-center {
+	align-self: center;
+  }
+
+  .align-end {
+	align-self: flex-end;
+	justify-content: flex-end;
+	padding-left: 100vh;
+  }
+
+  .justify{
+	padding-top: 35vh;	
+	padding-right: 1vh;
+}
+
+.spacearound{
+	justify-content: space-around;
+}
+
+.spacebetween{
+	justify-content: space-between;
+}
+
+.spaceeven{
+	justify-content: space-evenly;
+}
+
+.juscenter{
+	justify-content: center;
+}
+
+.start{
+	align-content: flex-start;
+}
+
+.paddingtopspace{
+	padding-top: 15%;
+}
+
+.paddingleftspace{
+	padding-left: 5%;
+}
+
+  .relative-center{
+	align-self: center;
+	border: top 2px; 
+  }
+
+  .wrapper-column{
+	display: flex;
+	flex-flow: column;
+}
+
+.wrapper-row{
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+.nowrap{
+	flex-flow: nowrap ;
+}
+
+.headpic{
+	max-width: 100%;
+	max-height: 100%;
+	filter: brightness(1);
+	justify-self: flex-end;
+	align-self: flex-end;
+}
+
+.imglimit{
+	object-fit:cover;
+	max-width:55vh;
+}
+
+.imgshadow{
+	-webkit-filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5));
+    filter:         drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5));
+}
+
+.snapping{
+	scroll-snap-type: y mandatory;
+}
+
+
+.vl{
+	border: none;
+    height: 1px;
+    color: rgb(0, 0, 0); 
+    background-color: #333; 
+	height: 100vh;
+	position: absolute;
+	z-index: 1;
+}
+
+.cards{
+	width: 33vh ;
+	height: 44vh;
+	background-color: rgb(255, 255, 255);
+	margin-top: 4vh;
+	border: rgb(255, 255, 255) solid 1px;
+}
+
+footer.bye{
+	background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+
+.NO{
+	padding: 0;
+	margin: 0;
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+	left:0%;
+    top:0%;
+    min-height: 100vh;
+	width: 100% ;
+	object-fit: content;
+    overflow: hidden;
+    position: absolute;
+	background-color: rgba(0, 0, 0, 1);
+}
+
+#myVideo1 {
+	left:0%;
+    top:0%;
+    height: 100%;
+	width: 100% ;
+	object-fit: content;
+    overflow: hidden;
+    position: absolute;
+	background-color: rgba(0, 0, 0, 1);
+}
+
+#myVideo02{
+    height: 70%;
+	width: 70% ;
+	object-fit: content;
+    overflow: hidden;
+    position: relative;
+	background-color: rgb(255, 255, 255);
+}
+
+.totheback{
+	z-index: -1;
+}
+  
+.fixvideo{
+	max-height: 70vh;
+}
+  /* Add some content at the bottom of the video/page */
+  .content {
+	position: absolute;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.5);
+	color: #f1f1f1;
+	width: 100%;
+	padding: 20px;
+	z-index: -10;
+  }
+  
+  /* Style the button used to pause/play the video */
+  #myBtn {
+	width: 200px;
+	font-size: 18px;
+	padding: 10px;
+	margin-bottom: 7vh;
+	border: none;
+	background: #000;
+	color: #fff;
+	cursor: pointer;
+  }
+  
+  #myBtn:hover {
+	background: #ffad6a;
+	color: black;
+  }

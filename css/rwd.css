@@ -1,0 +1,227 @@
+/* ----------- Windows Phone ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 480px) 
+  and (device-height: 800px) {
+    h1.topic{
+        font-size: 8vh;
+        letter-spacing: 3vh;
+      }
+      
+      h1.teamfonte{
+        font-size: 5vh;
+        letter-spacing: 2vh;
+    }
+
+    h5.topic{
+        letter-spacing: 1vh;
+        font-size: 2vh;
+      }
+    
+    h1.teamfont{
+        font-size: 5vh;
+        letter-spacing: 2vh;
+    }
+
+    .wrapper-data{
+        display: flex;
+	    flex-flow: column;
+	    object-fit: contain;
+    }
+    h1.data{
+        font-size: 9vh;
+        letter-spacing: 4.5vh;
+    }
+
+    .headpic{
+        align-self: center;
+        position: absolute;
+        justify-content: center;
+    }
+
+    .wrist2{
+        justify-content: center;
+    }
+
+    .idea{
+        position: absolute;
+        flex-direction: column;
+    }
+  
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 480px) 
+  and (device-height: 800px)  
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 480px) 
+  and (device-height: 800px) 
+  and (orientation: landscape) {
+
+}
+
+
+/* ----------- iPad 1, 2, Mini and Air ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+
+/* ----------- iPad Pro 10.5" ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 834px) 
+  and (max-device-width: 1112px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    h1.topic{
+        font-size: 5vh;
+        letter-spacing: 3vh;
+      }
+      
+      h1.teamfonte{
+        font-size: 5vh;
+        letter-spacing: 2vh;
+    }
+    
+    h1.teamfont{
+        font-size: 5vh;
+        letter-spacing: 2vh;
+    }
+
+    h1.data{
+        font-size: 9vh;
+        letter-spacing: 4.5vh;
+    }
+
+    .wrapper-data{
+        display: flex;
+	    flex-flow: row;
+	    object-fit: contain;
+    }
+
+}
+
+/* Portrait */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen 
+  and (min-device-width: 834px) 
+  and (max-device-width: 834px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Landscape */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen 
+  and (min-device-width: 1112px) 
+  and (max-device-width: 1112px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+
+/* ----------- Galaxy Tab 2 ----------- */
+
+/* Portrait and Landscape */
+@media 
+  (min-device-width: 800px) 
+  and (max-device-width: 1280px) {
+
+    h1.topic{
+        font-family: 'Haettenschweiler';
+        font-size: 10vh;
+        letter-spacing: 3vh;
+      }
+      
+      h1.teamfonte{
+        font-family:  'Haettenschweiler';
+        font-size: 10vh;
+        letter-spacing: 2vh;
+    }
+    
+    h1.teamfont{
+        font-family:  'Haettenschweiler';
+        font-size: 10vh;
+        letter-spacing: 2vh;
+    }
+
+    .wrapper-data{
+        display: flex;
+	    flex-flow: row;
+	    object-fit: contain;
+    }
+    .navbar{
+        padding: .6rem;   
+      }
+      
+      .tab-default a  {
+        padding: 5px 10px;
+        font-size:1em;
+    }
+    
+    .tab-black a  {
+        padding: 5px 10px;
+        font-size:1em;
+    }
+	.idea{
+        position: relative;
+        flex-direction: column;
+
+    }
+
+    .wrapper-data{
+        display: flex;
+	    flex-flow: column;
+	    object-fit: contain;
+    }
+
+    h1.idea{
+        color: #fff;
+        font-family: 'jf-openhuninn-1.1', sans-serif;
+        font-size: 6vh;
+    }
+    p.idea-p{
+        color: #fff;
+        font-family: 'jf-openhuninn-1.1', sans-serif;
+        font-size: 2vh;
+    }
+    
+}
+
+
+

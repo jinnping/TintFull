@@ -1,0 +1,27 @@
+
+
+@font-face {
+    font-family: 'jf-openhuninn-1.1';
+    src: url('jf-openhuninn-11.woff2') format('woff2'),
+        url('jf-openhuninn-11.woff') format('woff'),
+        url('jf-openhuninn-11.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Haettenschweiler';
+    src: url('Haettenschweiler.woff2') format('woff2'),
+        url('Haettenschweiler.woff') format('woff'),
+        url('Haettenschweiler.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+.your-style {
+    font-family: 'Haettenschweiler';
+    font-weight: 500;
+    font-style: normal;
+}

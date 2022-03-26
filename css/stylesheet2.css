@@ -1,0 +1,11 @@
+
+@font-face {
+    font-family: 'Haettenschweiler';
+    src: url('Haettenschweiler.woff2') format('woff2'),
+        url('Haettenschweiler.woff') format('woff'),
+        url('Haettenschweiler.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+

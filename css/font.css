@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+
+h1.topic{
+    color: #fff;
+    -webkit-text-stroke-width: 1.2px;
+    -webkit-text-stroke-color: black;
+    font-family: 'Haettenschweiler';
+    font-size: 18vh;
+    letter-spacing: 4.5vh;
+    font-weight: 500;
+  }
+  
+  h5.topic{
+    color: #fff;
+    letter-spacing: 5vh;
+    font-family: 'jf-openhuninn-1.1', sans-serif;
+    /* -webkit-text-stroke-width: 0.5px; */
+    /* -webkit-text-stroke-color: black; */
+    font-size: 3vh;
+  }
+
+  
+h1.data{
+	color: rgba(77, 77, 77, 0.815);
+	font-family:  'Haettenschweiler';
+	font-size: 4vh;
+	font-size: 18vh;
+	letter-spacing: 4.5vh;
+	font-weight: 500;
+}
+
+h4.data{
+	color: #DBBD67;
+	font-family: 'jf-openhuninn-1.1', sans-serif ;
+	letter-spacing: 1vh;
+	font-size: 4vh;
+	text-align: left;
+}
+
+h6.data{
+	color: #ffffff;
+	font-family: 'jf-openhuninn-1.1', sans-serif ;
+	letter-spacing: 1vh;
+	font-size: 1.8vh;
+	text-align: left;
+}
+
+h7.data{
+	color: #ffffff;
+	font-family: 'jf-openhuninn-1.1', sans-serif ;
+	font-size: 1.5vh;
+	text-align: left;
+}
+
+p.data{
+	color: #ffffff;
+	font-family: 'jf-openhuninn-1.1', sans-serif ;
+	font-size: 2.5vh;
+	
+}
+
+
+h1.idea{
+	color: #fff;
+	font-family: 'jf-openhuninn-1.1', sans-serif;
+	font-size: 10vh;
+}
+
+p.idea-p{
+	color: #fff;
+	font-family: 'jf-openhuninn-1.1', sans-serif;
+	font-size: 3vh;
+}
+
+
+h1.show{
+	color: #fff;
+	font-family: 'jf-openhuninn-1.1', sans-serif;
+	font-size: 10vh;
+}
+
+p.show-p{
+	color: #fff;
+	font-family: 'jf-openhuninn-1.1', sans-serif;
+	font-size: 3vh;
+}
+
+
+h1.inside{
+	color: #fff;
+	font-family: 'jf-openhuninn-1.1', sans-serif;
+	font-size: 6vh;
+}
+
+
+
+h1.app{
+	font-family: 'Haettenschweiler';
+  font-size: 18vh;
+  letter-spacing: 4.5vh;
+  font-weight: 500;
+  -webkit-text-stroke: 1px black; /* width and color */
+  color: rgba(255, 255, 255, 0);
+  text-align: right;
+}
+
+h1.appcn{
+	font-family: 'Noto Sans TC', sans-serif;
+	font-size: 16vh;
+	color: rgba(0, 0, 0, 0);
+	-webkit-text-stroke: 1px black; /* width and color */
+	text-align: left;
+	
+}
+
+
+
+h1.appintro{
+	letter-spacing: 1vh;
+	font-family: 'jf-openhuninn-1.1', sans-serif;
+	font-size: 6vh;
+	top: 0;
+	bottom: 0%;
+}
+
+h2.appintro{
+	/* letter-spacing: 1vh; */
+	font-family: 'jf-openhuninn-1.1', sans-serif;
+	font-size: 3vh;
+	color: rgb(0, 0, 0);
+	top: 0;
+	bottom: 0;
+	
+}
+
+h3.appintro{
+	/* letter-spacing: 1vh; */
+	font-family: 'jf-openhuninn-1.1', sans-serif;
+	font-size: 2.5vh;
+	color: rgb(0, 0, 0);
+}
+
+h1.appintroeng{
+	letter-spacing: 3vh;
+	font-family: 'jf-openhuninn-1.1', sans-serif;
+}
+
+
+
+p.appintro{
+	font-family: 'jf-openhuninn-1.1', sans-serif;
+	font-size: 3vh;
+	padding-top: 1%;
+	text-align: center;
+}
+
+h1.appdesigneng{
+	letter-spacing: 2vh;
+	font-family: 'jf-openhuninn-1.1', sans-serif;
+}
+
+h2.appdesign{
+	letter-spacing: 2vh;
+	font-family: 'jf-openhuninn-1.1', sans-serif;
+	font-size: 5vh;
+	color: rgba(5, 5, 5, 0);
+	-webkit-text-stroke: 1px black; /* width and color */
+	writing-mode: vertical-rl;
+	text-orientation: upright;
+	text-align: left;
+	-webkit-filter: drop-shadow(5px 5px 5px #FFD576);
+    filter:         drop-shadow(5px 5px 5px #FFD576);
+}
+
+h1.colorfont{
+	font-family: 'jf-openhuninn-1.1', sans-serif;
+	font-size: 3vh;
+	color: rgb(0, 0, 0);
+
+}
+
+.fontdesign01{
+	font-family: 'jf-openhuninn-1.1', sans-serif;
+	font-size: 12vh;
+	color: rgb(0, 0, 0);
+}
+
+.fontdesign01e{
+	font-family: 'jf-openhuninn-1.1', sans-serif;
+	font-size: 12vh;
+	color: rgba(255, 255, 255, 0);
+    -webkit-text-stroke: 1px black; /* width and color */
+	writing-mode: vertical-rl;
+	text-orientation: upright;
+	text-align: left;
+}
+
+.fontdesign01b{
+	font-family: 'jf-openhuninn-1.1', sans-serif;
+	font-size: 3vh;
+	color: rgb(0, 0, 0);
+	padding-top: 8.5vh;
+	padding-left: 2vh;
+}
+
+.fontdesign01c{
+	font-family: 'jf-openhuninn-1.1', sans-serif;
+	font-size: 8vh;
+	color: rgb(0, 0, 0);
+	padding-top: 3vh;
+	padding-left: 2vh;
+}
+.fontdesign01d{
+	font-family: 'jf-openhuninn-1.1', sans-serif;
+	font-size: 3vh;
+	color: rgb(0, 0, 0);
+}
+
+
+.fontdesign02{
+    font-family: 'Noto Sans TC', sans-serif;
+	font-size: 12vh;
+	color: rgb(0, 0, 0);
+}
+
+.fontdesign02b{
+    font-family: 'Noto Sans TC', sans-serif;
+	font-size: 3vh;
+	color: rgb(0, 0, 0);
+	padding-top: 8.5vh;
+	padding-left: 2vh;
+}
+
+.fontdesign02c{
+    font-family: 'Noto Sans TC', sans-serif;
+	font-size: 8vh;
+	color: rgb(0, 0, 0);
+	padding-top: 3vh;
+	padding-left: 2vh;
+}
+.fontdesign02d{
+    font-family: 'Noto Sans TC', sans-serif;
+	font-size: 3vh;
+	color: rgb(0, 0, 0);
+}
+
+.logofont{
+	font-family: 'jf-openhuninn-1.1', sans-serif;
+    font-size: 3vh;
+    text-align: left;
+}
+
+h1.teamfonte{
+    font-family:  'Haettenschweiler';
+	font-size: 18vh;
+	letter-spacing: 2vh;
+	font-weight: 500;
+    color: rgba(0, 0, 0, 0);
+    -webkit-text-stroke: 1px black; /* width and color */
+}
+
+h1.teamfont{
+    font-family:  'Haettenschweiler';
+	font-size: 18vh;
+	letter-spacing: 2vh;
+	font-weight: 500;
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke: 1px black; /* width and color */
+}
+
+h1.org{
+    color:#FFD576 ;
+}
+
+.org{
+	color: #FFD576 ;
+}
+
+h1.teamcne{
+    font-family: 'jf-openhuninn-1.1', sans-serif;
+    font-size: 6vh;
+    letter-spacing: 2vh;
+    -webkit-text-stroke: 1px black; /* width and color */
+    color: rgba(0, 0, 0, 0);
+}
+
+h1.teamcn{
+    font-family: 'jf-openhuninn-1.1', sans-serif;
+    font-size: 6vh;
+    letter-spacing: 2vh;
+    -webkit-text-stroke: 1px black; /* width and color */
+    color: rgb(0, 0, 0);
+}
+
+h3.bye{
+    font-family: 'jf-openhuninn-1.1', sans-serif;
+    font-size: 3vh;
+    color: rgb(255, 255, 255);
+}
+
+h4.bye{
+    font-family: 'jf-openhuninn-1.1', sans-serif;
+    font-size: 2vh;
+    color: rgb(255, 255, 255);
+    text-align: left;
+}
+
+h2.cardin{
+    font-family: 'jf-openhuninn-1.1', sans-serif;
+    font-size: 3vh;
+    color: rgb(0, 0, 0);
+}
+
+h3.cardin{
+    font-family: 'jf-openhuninn-1.1', sans-serif;
+    font-size: 2vh;
+    color: rgb(0, 0, 0);
+}
+
+.footer a,
+.bye a {
+	padding:10px 20px;
+	text-transform: uppercase;
+	display: block;
+}
+
+.bye a  {
+	justify-content: center;
+	padding: 10px 20px;
+	color: rgb(255, 255, 255);
+	font-size: .99em;
+	text-decoration: none;
+}
+
+.bye a:hover {
+	color: #FDC06C;
+	text-decoration:none;
+}
